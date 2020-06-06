@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:stretchColumns="*"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtAccount"
+            android:text="@string/Account"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <EditText
+            android:layout_marginRight="20dp"
+            android:id="@+id/edt1"
+            android:hint="@string/hint1"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:autofillHints=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp">
+
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/txtPassword"
+            android:text="@string/Password"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <EditText
+            android:layout_marginRight="20dp"
+            android:id="@+id/edt2"
+            android:hint="@string/hint2"
+            android:inputType="textPersonName"
+            android:autofillHints=""
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="20dp">
+
+
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="30dp">
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnLogin"
+            android:textColor="#3F51B5"
+            style="?android:attr/buttonBarStyle">
+        </Button>
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnLogout"
+            android:textColor="#3F51B5"
+            style="?android:attr/buttonBarStyle">
+
+        </Button>
+    </TableRow>
+</TableLayout>

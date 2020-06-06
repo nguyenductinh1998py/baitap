@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Example Layout</string>
+    <string name="Account">Account</string>
+    <string name="Password">Password</string>
+    <string name="BtnLogin">Login</string>
+    <string name="BtnLogout">Logout</string>
+    <string name="hint1">Enter your Account</string>
+    <string name="hint2">Password</string>
+</resources>

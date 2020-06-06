@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="4"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/Account"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="38dp"
+            android:text="@string/Password"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/edt1"
+            android:hint="@string/hint1"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:layout_marginEnd="10dp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/edt2"
+            android:hint="@string/hint2"
+            android:inputType="textPersonName"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:layout_marginEnd="10dp">
+
+        </EditText>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_weight="1"
+                        android:text="@string/BtnLogin"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                    </Button>
+            <Button
+                android:id="@+id/btn2"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/BtnLogout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
